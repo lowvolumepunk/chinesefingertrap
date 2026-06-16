@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Trap";
+  src: url("/fonts/ChineseFingerTrap.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #a0b175;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding-top: 20px;
+}
+
+h1 {
+  font-family: "Trap", sans-serif;
+  color: #d94336;
+  font-size: 56px;
+}
